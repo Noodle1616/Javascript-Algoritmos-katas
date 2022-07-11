@@ -32,7 +32,7 @@ function caixa(valor, salarioFixo, vendas){
     }
 
     let valorSacado = 0
-    for(let i = 0; i < 20; i++){
+    for(let i = 0; i < 30; i++){
         if(valorSacado + 200 <= valor){
             valorSacado += 200
             cedulas["dozentos"] += 1
